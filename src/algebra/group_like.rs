@@ -320,8 +320,8 @@ pub mod multiplicative {
     pub trait MulAssociative: {}
 
     ///
-    ///A marker trait for stucts whose addition operation is order independent,
-    ///ie `x+y=y+x` for all `x`, `y`, and `z`.
+    ///A marker trait for stucts whose multiplication operation is order independent,
+    ///ie `x*y=y*x` for all `x` and `y`.
     ///
     ///This is an extremely common property, and _most_ commonly used algebraic systems have it.
     ///Nonetheless, there are also a fairly number of algebraic constructions do not, such as
